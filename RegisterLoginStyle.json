@@ -1,0 +1,67 @@
+{
+    "ShowLogs": true,
+    "QMainWindow": [
+        {
+            "title": "NetAdminPro"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#090a26",
+                            "Text-color": "#fff",
+                            "Accent-color": "#091b44",
+                            "Theme-name": "Default-Dark",
+                            "Icons-color": "#0093ec"
+                        },
+                        {
+                            "Background-color": "#ffff",
+                            "Text-color": "#070808",
+                            "Accent-color": "#0093ec",
+                            "Theme-name": "Default-Light",
+                            "Icons-color": "#0093ec"
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrganizationName": "NetAdminPro",
+                "ApplicationName": "NetAdminPro Company",
+                "OrganizationDomain": "NetAdminPro.org"
+            }
+        }
+    ],
+    "QStackedWidget": [
+        {
+            "name": "LoginWidget",
+            "transitionAnimation": [
+                {
+                    "fade": [
+                        {
+                            "active": true,
+                            "duration": 1000,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide": [
+                        {
+                            "active": true,
+                            "duration": 1000,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation": [
+                {
+                    "nextPage": "To_Login",
+                    "previousPage": "To_Register"
+                }
+            ]
+        }
+    ]
+}
